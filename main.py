@@ -3,14 +3,15 @@
 
 def print_hi(name):
     """打印问候语。"""
-    print(f'Hi, {name}')
+    print(f"Hi, {name}")
 
-def print_bey(name):
-    print(f'Bey, {name}')
+
+def print_bye(name):
+    """打印告别语。"""
+    print(f"Bye, {name}")
 
 
 # 🌟 程序入口
-if __name__ == '__main__':
-    print_hi('PyCharm')
-    print_bey('PyCharm')
-
+if __name__ == "__main__":
+    print_hi("PyCharm")
+    print_bye("PyCharm")

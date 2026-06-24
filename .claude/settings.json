@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "ask": false,
+    "bypass": true,
+    "autoApprove": [
+      "cd",
+      "black .",
+      "pytest",
+      "git add",
+      "git commit",
+      "git push",
+      "mkdir",
+      "python3",
+      "touch"
+    ],
+    "allowSubagents": true,
+    "dangerousCommands": []
+  }
+}

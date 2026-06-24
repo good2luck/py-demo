@@ -3,7 +3,7 @@ name: commit-triage
 description: 自动分析过去 24 小时内的 Commit 记录，提取潜在 Bug 或待完善的任务，并将其记录到 TASKS.md。
 ---
 # 运行步骤：
-1. 运行 shell 命令 `git log --since="1 m ago" --patch`，获取过去 5 分钟内的所有代码变更（Diff）。
+1. 运行 shell 命令 `git log --since="24 hour ago" --patch`，获取过去 24 小时内的所有代码变更（Diff）。
 2. 分析这些变更：
    - 是否包含新引入的 `TODO` 或 `FIXME`？
    - 是否有明显的逻辑漏洞（例如未做空指针判断、无错误捕获）？
